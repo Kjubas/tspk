@@ -9,6 +9,6 @@ module.exports = ({ env }) => ({
 const axios = require('axios');
 
 setInterval(() => {
-  axios.get('https://your-strapi.onrender.com/api/ping')
+  axios.get('https://tspk.onrender.com/api/ping')
     .catch(() => {});
 }, 5 * 60 * 1000); // Каждые 5 минут пингуется
